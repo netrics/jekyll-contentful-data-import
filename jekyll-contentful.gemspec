@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # The version of middleman-core your extension depends on
-  s.add_dependency("jekyll", ">= 2.5.0", "< 4")
+  # The version of middleman-core your extension depends on  
+  s.add_dependency("jekyll", ">= 2.5.0", "< 5")
 
   # Additional dependencies
   s.add_dependency("contentful", '~> 2.1')
